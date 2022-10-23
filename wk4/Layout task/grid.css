@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  height: 500px;
+  gap: 15px;
+  justify-content: center;
+  align-content: center;
+}
+
+.top-section {
+  display: grid;
+  grid-template-columns: 350px 200px;
+  gap: 15px;
+}
+.top-left {
+  background-color: red;
+}
+
+.top-right {
+  background-color: yellow;
+}
+
+.bottom-section {
+  display: grid;
+  grid-template-columns: 250px 300px;
+  gap: 15px;
+}
+
+.bottom-left {
+  background-color: green;
+}
+
+.bottom-right {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px;
+  height: inherit;
+}
+
+.top {
+  background-color: aqua;
+}
+.bottom {
+  background-color: aqua;
+}
